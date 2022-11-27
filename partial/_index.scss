@@ -1,0 +1,789 @@
+.mine{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    .mine2{
+        // padding: 2rem;
+        background: $color5;
+        position: relative;
+        width: 100%;
+        padding:5rem 1rem 1rem 1rem;
+        // .hello{
+        //     color: $color5;
+        // }
+        p{
+            margin-top: 1rem;
+            line-height: 3ch;
+        }
+        h1{
+            color: $color4;
+        }
+        div{
+            width: 50%;
+            margin-top: 1rem;
+            // display: flex;
+            // justify-content: center;
+            a button{
+                background: $color4;
+                width: 150px;
+                height: 7vh;
+                color: $color3;
+                border: none;
+                font-size: 15px;
+                cursor: pointer;
+                &:hover{
+                    background: $color3;
+                    border: 1px solid $color4;
+                    color: $color4;
+                }
+
+            }
+        }
+    }
+    .deimg{
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+        img{
+            width:70%;
+        }
+    }
+}
+
+
+#myabot{
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    background: $color4;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    div{
+        width: 98%;
+        h1{
+
+            color: $color5;
+        }
+        p{
+            line-height: 3ch;
+            margin-top: 1rem;
+            color: $color3;
+        }
+    }
+    .desimg{
+        position: relative;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        // gap: 3rem;
+        margin-top: 3rem;
+        video{
+            width: 90%;
+        }
+    }
+}
+
+.potential{
+    // padding: 1ch;
+    width: 100%;
+    margin-top: 5rem;
+    // padding: 0 2rem;
+    p{
+        margin-top: 1ch;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: $color4;
+    }
+    .pronce{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        // background: $color1;
+        // gap: 1px;
+        gap: 4rem;
+        // padding: 0;
+        padding: 1rem;
+        .dotman{
+            width: 100%;
+            // background: blue;
+            img{
+                width: 100%;
+            }
+        }
+        .progricon{
+            width: 100%;
+            position: relative;
+            // background: blue;
+            // margin-top: 2rem;
+            padding: 2rem;
+            // background: $color1;
+            .prog2{
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.5rem;
+                justify-content: center;
+                div{
+                    width: 15%;
+                    text-align: center;
+                    img{
+                        width: 80%;
+                        // text-align: center;
+                    }
+                }
+            }
+            div{
+                width: 100%;
+                position: relative;
+                margin-top: 2rem;
+                p{
+                    line-height: 2.7ch;
+                    margin-top: 1ch;
+                    .yels{
+                        color: $color5;
+                        font-weight: bolder;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.projects{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    .pro2{
+        width: 100%;
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        div{
+            color: $color4;
+        }
+        h1{
+            color: $color4;
+        }
+    }
+    // p{
+    //     font-size: 15px;
+    // }
+}
+
+.inpro{
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    .inpro2{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        gap: 4rem;
+        .inpro3{
+            width: 99%;
+            position: relative;
+            background: $color5;
+            padding: 1rem;
+            text-align: center;
+            &:hover{
+                background:$color4;
+                p, h3{
+                    color: $color3;
+                }
+                .checkpro{
+                    a button{
+                        background: $color5;
+                        color: $color2;
+                    }
+                }
+            }
+            h3{
+                color: $color4;
+            }
+            p{
+                // cursor: auto;
+                // cursor: all-scroll;
+                color: $color4;
+                margin-top: 1ch;
+                margin-bottom: 1ch;
+                line-height: 2.7ch;
+            }
+            div{
+                width: 100%;
+                position: relative;
+                img{
+                    width: 50%;
+                }
+            }
+            .checkpro{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 5vh;
+                a button{
+                    background: $color4;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    padding: 7px 2rem;
+                    font-weight: bold;
+                    color: $color3;
+                    border: none;
+                    &:hover{
+                        background: $color3;
+                        border: 1px solid $color4;
+                        color: $color4;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.contactss{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background: $color4;
+    // padding: 2rem;
+        
+    .proj2{
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+        margin-top: 3rem;
+        .prosyy{
+            position: relative;
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            div{
+                width: 40px;
+                height: 6vh;
+                background: $color3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // flex-direction: column;
+                border-radius: 50%;
+                font-size: 19px;
+                color: $color4;
+                // border: 1px solid $color5;
+                box-shadow: 0 0 5px 0;
+                // &:hover{
+
+                //     border: none;
+                // }
+            }
+            h1{
+                color: $color4;
+            }
+        }
+        p{
+            font-size: 16px;
+            margin-top: 1rem;
+            line-height: 3ch;
+        }
+    }
+    .deform2{
+        width: 95%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        background: $color3;
+        box-shadow: 0 0 10px 0 $color5;
+        padding: 1rem;
+        form{
+            width: 95%;
+            // background: $color1;
+            input{
+                width: 100%;
+                // border: none;
+                outline: none;
+                padding: 1ch;
+                margin-top: 1ch;
+                height: 8vh;
+                // &::placeholder{
+
+                // }
+            }
+            .messagee{
+                input{
+
+                    height: 16vh;
+                    &::placeholder{
+                        text-align: center;
+                    }
+                }
+            }
+            .divbtn{
+                width: 100%;
+                position: relative;
+                // display: flex;
+                // justify-content: center;
+                margin-top: 1ch;
+                button{
+                    width: 70px;
+                    height: 8vh;
+                    font-size: 16px;
+                    cursor: pointer;
+                    background: $color4;
+                    border: none;
+                    color: $color3;
+                    &:hover{
+                        background: $color3;
+                        border: 1px solid $color4;
+                        color: $color4;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.myprofi{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 4rem;
+    .myprofi2{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h1{
+            color: $color4;
+        }
+        div{
+            p{
+                // margin-top: 1rem;
+                font-size: 12px;
+            }  
+            .percents{
+                display: flex;
+                width: 100%;
+                justify-content: flex-end;
+            }        
+            .bluedivs{
+                width: 100%;
+                position: relative;
+                height: 2vh;
+                display: flex;
+                // background: white;
+                // background: blue;
+                border: 1px solid $color1;
+                // border-top-right-radius: 50%;
+                // border-bottom-right-radius: 50%;
+                border-radius: 2ch;
+                .whitesdiv{
+                    border-radius: 2ch;
+                    background: rgb(22, 117, 242);
+                    width: 95%;
+                    border: none;
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 0;
+                }
+                .greoe{
+                    border: none;
+                    border-radius: 2ch;
+                    background: white;
+                }
+            }
+            .bluedivs2{
+                width: 100%;
+                position: relative;
+                height: 2vh;
+                display: flex;
+                // background: white;
+                // background: blue;
+                border: 1px solid $color1;
+                // border-top-right-radius: 50%;
+                // border-bottom-right-radius: 50%;
+                border-radius: 2ch;
+                .whitesdiv2{
+                    border-radius: 2ch;
+                    background: rgb(22, 117, 242);
+                    width: 80%;
+                    border: none;
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 0;
+                }
+                .greoe2{
+                    border: none;
+                    border-radius: 2ch;
+                    background: white;
+                }
+            }
+            .bluedivs3{
+                width: 100%;
+                position: relative;
+                height: 2vh;
+                display: flex;
+                // background: white;
+                // background: blue;
+                border: 1px solid $color1;
+                // border-top-right-radius: 50%;
+                // border-bottom-right-radius: 50%;
+                border-radius: 2ch;
+                .whitesdiv3{
+                    border-radius: 2ch;
+                    background: rgb(22, 117, 242);
+                    width: 75%;
+                    border: none;
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 0;
+                }
+                .greoe3{
+                    border: none;
+                    border-radius: 2ch;
+                    background: white;
+                }
+            }
+        }
+    }
+    .prok{
+        text-align: center;
+    }
+    // .change_img{
+    //     background: blue;
+    //     img{
+    //         width: 50%;
+    //     }
+    // }
+}
+
+
+
+
+footer{
+    width: 100%;
+    position: relative;
+    background: $color1;
+    display: flex;
+    justify-content: center;
+    padding: 4ch 2ch;
+    margin-top: 5rem;
+    .footdiv{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .reachme{
+            width: 100%;
+            position: relative;
+            p{
+                margin-top: 1ch;
+                color: $color4;
+                text-align: center;
+                // color: $color1;
+            }
+            .follow{
+                margin-top: 3ch;
+            }
+            .reachs{
+                font-size: 20px;
+            }
+            .socials{
+                width:100%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1ch;
+                justify-content: center;
+                margin-top: 1ch;
+                a button{
+                    width: 34px;
+                    height: 6vh;
+                    border-radius: 50%;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 18px;
+
+                }
+                .white{
+                    background: $color3;
+                    color: $color4;
+                }
+                .yellow{
+                    background: $color5;
+                }
+                .blue{
+                    background: $color4;
+                    color: $color3;
+                }
+                .gray{
+                    background: #f16529;
+                    color: $color3;
+                }
+                .black{
+                    background: blue;
+                    color: $color3;
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (min-width:535px){
+    .mine{
+        .deimg{
+            width: 100%;
+            margin-top: 2rem;
+            text-align: center;
+            img{
+                width:50%;
+            }
+        }
+    }
+}
+@media screen and (min-width:768px){
+    .mine{
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        .mine2{
+            width: 100%;
+            position: relative;
+            background: transparent;
+            padding: 5rem 0 0 2rem;
+        }
+        .deimg{
+            width: 100%;
+            margin-top: 4rem;
+            text-align: center;
+            img{
+                width:50%;
+            }
+        }
+    }
+    #myabot{
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        gap: 3rem;
+        padding: 2rem;
+        p{
+
+            line-height: 2.7ch;
+        }
+    }
+    .potential{
+        position: relative;
+        width: 100%;
+        padding: 1.5rem;
+        .pronce{
+            // padding: 1px;
+            position: relative;
+            width: 100%;
+            flex-direction: row;
+            // text-align: justify;
+            gap: 4rem;
+            // margin-top: 1px;
+           
+            .progricon{
+                // padding: ;
+                width: 65%;
+                position: relative;
+                .prog2{
+                    width: 100%;
+                    margin-top: 1px;
+                    div{
+                        img{
+                            width: 60%;
+                        }
+                    }
+                }
+                div{
+                    width: 100%;
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            .dotman{
+                width: 30%;
+                // display: flex;
+                // justify-content: flex-start;
+                img{
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+    .projects{
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+    }
+    .inpro{
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        // justify-content: center;
+        .inpro2{
+            position: relative;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap:wrap;
+            .inpro3{
+                width: 45%;
+            }
+        }
+    }
+    .myprofi{
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        gap: 3rem;
+        .myprofi2{
+            // position: relative;
+            // background: blue;
+            width: 55%;
+            .dedesi{
+                width: 100%;
+
+            }
+        }
+        .prok{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 90%;
+            }
+            // background: red;
+        }
+    }
+    .contactss{
+        position: relative;
+        width: 100%;
+        p{
+            width: 80%;
+            // font-size: 15px;
+            line-height: 4ch;
+        }
+        .deform2{
+            position: relative;
+            width: 70%;
+            form{
+                width: 80%;
+                input{
+                    margin-top: 4ch;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(min-width:990px){
+    .potential{
+        position: relative;
+        width: 100%;
+        .pronce{
+            position: relative;
+            width: 100%;
+            gap: 1rem;
+            // background: blue;
+            padding: 0;
+            .dotman{
+                width: 45%;
+                img{
+                    width: 70%;
+                }
+            }
+            .progricon{
+                width: 55%;
+                // background: red;
+                .prog2{
+                    width: 100%;
+                    div{
+                        width: 15%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width:1024px){
+    .mine{
+        margin-top: 6rem;
+        .deimg{
+            width: 100%;
+            text-align: center;
+            img{
+                width:48%;
+            }
+        }
+    }
+    .contactss{
+        position: relative;
+        .proj2{
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1190px){
+    .projects{
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+    }
+    .inpro{
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+        // background: red;
+        .inpro2{
+            position: relative;
+            width: 100%;
+            // display: flex;
+            .inpro3{
+                width:29%;
+            }
+        }
+    }
+}
