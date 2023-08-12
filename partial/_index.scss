@@ -37,8 +37,9 @@
                 height: 7vh;
                 color: $color3;
                 border: none;
-                font-size: 15px;
+                font-size: 16px;
                 cursor: pointer;
+                font-weight: bold;
 
                 &:hover {
                     background: $color3;
@@ -227,14 +228,11 @@
         .klop3 {
             width: 100%;
 
-            div {
-                width: 100%;
-
-                img {
-                    width: 40%;
-                    height: 30vh;
-                }
+            img {
+                width: 70px;
+                height: auto;
             }
+
         }
 
         .inpro3 {
