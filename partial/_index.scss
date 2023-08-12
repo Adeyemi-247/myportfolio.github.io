@@ -1,31 +1,37 @@
-.mine{
+.mine {
     position: relative;
     width: 100%;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    .mine2{
+
+    .mine2 {
         // padding: 2rem;
         background: $color5;
         position: relative;
         width: 100%;
-        padding:5rem 1rem 1rem 1rem;
+        padding: 5rem 1rem 1rem 1rem;
+
         // .hello{
         //     color: $color5;
         // }
-        p{
+        p {
             margin-top: 1rem;
             line-height: 3ch;
+            text-align: justify;
         }
-        h1{
+
+        h1 {
             color: $color4;
         }
-        div{
+
+        div {
             width: 50%;
             margin-top: 1rem;
+
             // display: flex;
             // justify-content: center;
-            a button{
+            a button {
                 background: $color4;
                 width: 150px;
                 height: 7vh;
@@ -33,7 +39,8 @@
                 border: none;
                 font-size: 15px;
                 cursor: pointer;
-                &:hover{
+
+                &:hover {
                     background: $color3;
                     border: 1px solid $color4;
                     color: $color4;
@@ -42,18 +49,20 @@
             }
         }
     }
-    .deimg{
+
+    .deimg {
         width: 100%;
         margin-top: 2rem;
         text-align: center;
-        img{
-            width:70%;
+
+        img {
+            width: 70%;
         }
     }
 }
 
 
-#myabot{
+#myabot {
     width: 100%;
     position: relative;
     padding: 1rem;
@@ -61,45 +70,54 @@
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
-    div{
+
+    div {
         width: 98%;
-        h1{
+
+        h1 {
 
             color: $color5;
         }
-        p{
+
+        p {
             line-height: 3ch;
             margin-top: 1rem;
             color: $color3;
+            text-align: justify;
         }
     }
-    .desimg{
+
+    .desimg {
         position: relative;
         width: 100%;
         display: flex;
         text-align: center;
         // gap: 3rem;
         margin-top: 3rem;
-        video{
+
+        video {
             width: 90%;
         }
     }
 }
 
-.potential{
+.potential {
     // padding: 1ch;
     width: 100%;
     margin-top: 5rem;
+
     // padding: 0 2rem;
-    p{
+    p {
         margin-top: 1ch;
         text-align: center;
     }
-    h1{
+
+    h1 {
         text-align: center;
         color: $color4;
     }
-    .pronce{
+
+    .pronce {
         display: flex;
         flex-direction: column;
         // justify-content: center;
@@ -110,44 +128,53 @@
         gap: 4rem;
         // padding: 0;
         padding: 1rem;
-        .dotman{
+
+        .dotman {
             width: 100%;
+
             // background: blue;
-            img{
+            img {
                 width: 100%;
             }
         }
-        .progricon{
+
+        .progricon {
             width: 100%;
             position: relative;
             // background: blue;
             // margin-top: 2rem;
             padding: 2rem;
+
             // background: $color1;
-            .prog2{
+            .prog2 {
                 position: relative;
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
                 gap: 1.5rem;
                 justify-content: center;
-                div{
+
+                div {
                     width: 15%;
                     text-align: center;
-                    img{
+
+                    img {
                         width: 80%;
                         // text-align: center;
                     }
                 }
             }
-            div{
+
+            div {
                 width: 100%;
                 position: relative;
                 margin-top: 2rem;
-                p{
+
+                p {
                     line-height: 2.7ch;
                     margin-top: 1ch;
-                    .yels{
+
+                    .yels {
                         color: $color5;
                         font-weight: bolder;
                         font-size: 22px;
@@ -158,61 +185,86 @@
     }
 }
 
-.projects{
+.projects {
     position: relative;
     width: 100%;
     padding: 1rem;
-    .pro2{
+
+    .pro2 {
         width: 100%;
         position: relative;
         display: flex;
         gap: 1rem;
         align-items: center;
-        div{
+
+        div {
             color: $color4;
         }
-        h1{
+
+        h1 {
             color: $color4;
         }
     }
+
     // p{
     //     font-size: 15px;
     // }
 }
 
-.inpro{
+.inpro {
     width: 100%;
     position: relative;
     padding: 1rem;
-    .inpro2{
+
+    .inpro2 {
         width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
         // justify-content: center;
         gap: 4rem;
-        .inpro3{
+
+        .klop3 {
+            width: 100%;
+
+            div {
+                width: 100%;
+
+                img {
+                    width: 40%;
+                    height: 30vh;
+                }
+            }
+        }
+
+        .inpro3 {
             width: 99%;
             position: relative;
             background: $color5;
             padding: 1rem;
             text-align: center;
-            &:hover{
-                background:$color4;
-                p, h3{
+
+            &:hover {
+                background: $color4;
+
+                p,
+                h3 {
                     color: $color3;
                 }
-                .checkpro{
-                    a button{
+
+                .checkpro {
+                    a button {
                         background: $color5;
                         color: $color2;
                     }
                 }
             }
-            h3{
+
+            h3 {
                 color: $color4;
             }
-            p{
+
+            p {
                 // cursor: auto;
                 // cursor: all-scroll;
                 color: $color4;
@@ -220,20 +272,24 @@
                 margin-bottom: 1ch;
                 line-height: 2.7ch;
             }
-            div{
+
+            div {
                 width: 100%;
                 position: relative;
-                img{
+
+                img {
                     width: 50%;
                 }
             }
-            .checkpro{
+
+            .checkpro {
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 5vh;
-                a button{
+
+                a button {
                     background: $color4;
                     width: 100%;
                     height: 100%;
@@ -245,22 +301,24 @@
                     font-weight: bold;
                     color: $color3;
                     border: none;
-                    &:hover{
+
+                    &:hover {
                         background: $color3;
                         border: 1px solid $color4;
                         color: $color4;
                     }
-                   
+
                 }
             }
         }
+
     }
 }
 
 
 
 
-.contactss{
+.contactss {
     position: relative;
     width: 100%;
     display: flex;
@@ -269,19 +327,21 @@
     align-items: center;
     // background: $color4;
     // padding: 2rem;
-        
-    .proj2{
+
+    .proj2 {
         position: relative;
         width: 100%;
         padding: 2rem;
         margin-top: 3rem;
-        .prosyy{
+
+        .prosyy {
             position: relative;
             display: flex;
             // flex-direction: column;
             align-items: center;
             gap: 1rem;
-            div{
+
+            div {
                 width: 40px;
                 height: 6vh;
                 background: $color3;
@@ -299,17 +359,20 @@
                 //     border: none;
                 // }
             }
-            h1{
+
+            h1 {
                 color: $color4;
             }
         }
-        p{
+
+        p {
             font-size: 16px;
             margin-top: 1rem;
             line-height: 3ch;
         }
     }
-    .deform2{
+
+    .deform2 {
         width: 95%;
         position: relative;
         display: flex;
@@ -318,10 +381,12 @@
         background: $color3;
         box-shadow: 0 0 10px 0 $color5;
         padding: 1rem;
-        form{
+
+        form {
             width: 95%;
+
             // background: $color1;
-            input{
+            input {
                 width: 100%;
                 // border: none;
                 outline: none;
@@ -332,22 +397,26 @@
 
                 // }
             }
-            .messagee{
-                input{
+
+            .messagee {
+                input {
 
                     height: 16vh;
-                    &::placeholder{
+
+                    &::placeholder {
                         text-align: center;
                     }
                 }
             }
-            .divbtn{
+
+            .divbtn {
                 width: 100%;
                 position: relative;
                 // display: flex;
                 // justify-content: center;
                 margin-top: 1ch;
-                button{
+
+                button {
                     width: 70px;
                     height: 8vh;
                     font-size: 16px;
@@ -355,7 +424,8 @@
                     background: $color4;
                     border: none;
                     color: $color3;
-                    &:hover{
+
+                    &:hover {
                         background: $color3;
                         border: 1px solid $color4;
                         color: $color4;
@@ -367,7 +437,7 @@
     }
 }
 
-.myprofi{
+.myprofi {
     position: relative;
     width: 100%;
     padding: 1rem;
@@ -375,26 +445,31 @@
     flex-direction: column;
     gap: 3rem;
     margin-top: 4rem;
-    .myprofi2{
+
+    .myprofi2 {
         position: relative;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        h1{
+
+        h1 {
             color: $color4;
         }
-        div{
-            p{
+
+        div {
+            p {
                 // margin-top: 1rem;
                 font-size: 12px;
-            }  
-            .percents{
+            }
+
+            .percents {
                 display: flex;
                 width: 100%;
                 justify-content: flex-end;
-            }        
-            .bluedivs{
+            }
+
+            .bluedivs {
                 width: 100%;
                 position: relative;
                 height: 2vh;
@@ -405,7 +480,8 @@
                 // border-top-right-radius: 50%;
                 // border-bottom-right-radius: 50%;
                 border-radius: 2ch;
-                .whitesdiv{
+
+                .whitesdiv {
                     border-radius: 2ch;
                     background: rgb(22, 117, 242);
                     width: 95%;
@@ -413,13 +489,15 @@
                     border-bottom-right-radius: 0;
                     border-top-right-radius: 0;
                 }
-                .greoe{
+
+                .greoe {
                     border: none;
                     border-radius: 2ch;
                     background: white;
                 }
             }
-            .bluedivs2{
+
+            .bluedivs2 {
                 width: 100%;
                 position: relative;
                 height: 2vh;
@@ -430,7 +508,8 @@
                 // border-top-right-radius: 50%;
                 // border-bottom-right-radius: 50%;
                 border-radius: 2ch;
-                .whitesdiv2{
+
+                .whitesdiv2 {
                     border-radius: 2ch;
                     background: rgb(22, 117, 242);
                     width: 80%;
@@ -438,13 +517,15 @@
                     border-bottom-right-radius: 0;
                     border-top-right-radius: 0;
                 }
-                .greoe2{
+
+                .greoe2 {
                     border: none;
                     border-radius: 2ch;
                     background: white;
                 }
             }
-            .bluedivs3{
+
+            .bluedivs3 {
                 width: 100%;
                 position: relative;
                 height: 2vh;
@@ -455,7 +536,8 @@
                 // border-top-right-radius: 50%;
                 // border-bottom-right-radius: 50%;
                 border-radius: 2ch;
-                .whitesdiv3{
+
+                .whitesdiv3 {
                     border-radius: 2ch;
                     background: rgb(22, 117, 242);
                     width: 75%;
@@ -463,7 +545,8 @@
                     border-bottom-right-radius: 0;
                     border-top-right-radius: 0;
                 }
-                .greoe3{
+
+                .greoe3 {
                     border: none;
                     border-radius: 2ch;
                     background: white;
@@ -471,9 +554,11 @@
             }
         }
     }
-    .prok{
+
+    .prok {
         text-align: center;
     }
+
     // .change_img{
     //     background: blue;
     //     img{
@@ -484,8 +569,7 @@
 
 
 
-
-footer{
+footer {
     width: 100%;
     position: relative;
     background: $color1;
@@ -493,36 +577,43 @@ footer{
     justify-content: center;
     padding: 4ch 2ch;
     margin-top: 5rem;
-    .footdiv{
+
+    .footdiv {
         width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        .reachme{
+
+        .reachme {
             width: 100%;
             position: relative;
-            p{
+
+            p {
                 margin-top: 1ch;
                 color: $color4;
                 text-align: center;
                 // color: $color1;
             }
-            .follow{
+
+            .follow {
                 margin-top: 3ch;
             }
-            .reachs{
+
+            .reachs {
                 font-size: 20px;
             }
-            .socials{
-                width:100%;
+
+            .socials {
+                width: 100%;
                 position: relative;
                 display: flex;
                 flex-wrap: wrap;
                 gap: 1ch;
                 justify-content: center;
                 margin-top: 1ch;
-                a button{
+
+                a button {
                     width: 34px;
                     height: 6vh;
                     border-radius: 50%;
@@ -531,80 +622,99 @@ footer{
                     font-size: 18px;
 
                 }
-                .white{
+
+                .white {
                     background: $color3;
                     color: $color4;
                 }
-                .yellow{
+
+                .yellow {
                     background: $color5;
                 }
-                .blue{
+
+                .blue {
                     background: $color4;
                     color: $color3;
                 }
-                .gray{
+
+                .gray {
                     background: #f16529;
                     color: $color3;
                 }
-                .black{
+
+                .black {
                     background: blue;
                     color: $color3;
                 }
             }
         }
-        
+
     }
 }
 
 
-@media screen and (min-width:535px){
-    .mine{
-        .deimg{
+@media screen and (min-width:535px) {
+    .mine {
+        .deimg {
             width: 100%;
             margin-top: 2rem;
             text-align: center;
-            img{
-                width:50%;
+
+            img {
+                width: 50%;
             }
         }
     }
 }
-@media screen and (min-width:768px){
-    .mine{
+
+@media screen and (min-width:768px) {
+    .mine {
         position: relative;
         width: 100%;
         flex-direction: row;
-        .mine2{
+
+        .mine2 {
             width: 100%;
             position: relative;
             background: transparent;
             padding: 5rem 0 0 2rem;
         }
-        .deimg{
+
+        .deimg {
             width: 100%;
             margin-top: 4rem;
             text-align: center;
-            img{
-                width:50%;
+
+            img {
+                width: 50%;
             }
         }
     }
-    #myabot{
+
+    #myabot {
         position: relative;
         width: 100%;
         flex-direction: row;
         gap: 3rem;
         padding: 2rem;
-        p{
 
-            line-height: 2.7ch;
+        .zazu {
+
+            p {
+
+                line-height: 3ch;
+                text-align: justify;
+                font-size: 18px;
+            }
         }
     }
-    .potential{
+
+    .potential {
         position: relative;
         width: 100%;
         padding: 1.5rem;
-        .pronce{
+
+        .pronce {
             // padding: 1px;
             position: relative;
             width: 100%;
@@ -612,98 +722,119 @@ footer{
             // text-align: justify;
             gap: 4rem;
             // margin-top: 1px;
-           
-            .progricon{
+
+            .progricon {
                 // padding: ;
                 width: 65%;
                 position: relative;
-                .prog2{
+
+                .prog2 {
                     width: 100%;
                     margin-top: 1px;
-                    div{
-                        img{
+
+                    div {
+                        img {
                             width: 60%;
                         }
                     }
                 }
-                div{
+
+                div {
                     width: 100%;
-                    p{
+
+                    p {
                         text-align: justify;
                     }
                 }
             }
-            .dotman{
+
+            .dotman {
                 width: 30%;
+
                 // display: flex;
                 // justify-content: flex-start;
-                img{
+                img {
                     width: 100%;
                 }
             }
-            
+
         }
     }
-    .projects{
+
+    .projects {
         position: relative;
         width: 100%;
         padding: 2rem;
     }
-    .inpro{
+
+    .inpro {
         position: relative;
         width: 100%;
         padding: 2rem;
         display: flex;
+
         // justify-content: center;
-        .inpro2{
+        .inpro2 {
             position: relative;
             width: 100%;
             flex-direction: row;
-            flex-wrap:wrap;
-            .inpro3{
+            flex-wrap: wrap;
+
+            .inpro3 {
                 width: 45%;
             }
         }
     }
-    .myprofi{
+
+    .myprofi {
         position: relative;
         width: 100%;
         flex-direction: row;
         gap: 3rem;
-        .myprofi2{
+
+        .myprofi2 {
             // position: relative;
             // background: blue;
             width: 55%;
-            .dedesi{
+
+            .dedesi {
                 width: 100%;
 
             }
         }
-        .prok{
+
+        .prok {
             width: 40%;
             display: flex;
             justify-content: center;
             align-items: center;
-            img{
+
+            img {
                 width: 90%;
             }
+
             // background: red;
         }
     }
-    .contactss{
+
+    .contactss {
         position: relative;
         width: 100%;
-        p{
+
+        p {
             width: 80%;
             // font-size: 15px;
             line-height: 4ch;
         }
-        .deform2{
+
+        .deform2 {
             position: relative;
             width: 70%;
-            form{
+
+            form {
                 width: 80%;
-                input{
+
+                input {
                     margin-top: 4ch;
                 }
             }
@@ -712,28 +843,34 @@ footer{
 }
 
 
-@media screen and(min-width:990px){
-    .potential{
+@media screen and(min-width:990px) {
+    .potential {
         position: relative;
         width: 100%;
-        .pronce{
+
+        .pronce {
             position: relative;
             width: 100%;
             gap: 1rem;
             // background: blue;
             padding: 0;
-            .dotman{
+
+            .dotman {
                 width: 45%;
-                img{
+
+                img {
                     width: 70%;
                 }
             }
-            .progricon{
+
+            .progricon {
                 width: 55%;
+
                 // background: red;
-                .prog2{
+                .prog2 {
                     width: 100%;
-                    div{
+
+                    div {
                         width: 15%;
                     }
                 }
@@ -745,44 +882,51 @@ footer{
 
 
 
-@media screen and (min-width:1024px){
-    .mine{
+@media screen and (min-width:1024px) {
+    .mine {
         margin-top: 6rem;
-        .deimg{
+
+        .deimg {
             width: 100%;
             text-align: center;
-            img{
-                width:48%;
+
+            img {
+                width: 48%;
             }
         }
     }
-    .contactss{
+
+    .contactss {
         position: relative;
-        .proj2{
-            p{
+
+        .proj2 {
+            p {
                 font-size: 17px;
             }
         }
     }
 }
 
-@media screen and (min-width:1190px){
-    .projects{
+@media screen and (min-width:1190px) {
+    .projects {
         position: relative;
         width: 100%;
         padding: 2rem;
     }
-    .inpro{
+
+    .inpro {
         position: relative;
         width: 100%;
         padding: 2rem;
+
         // background: red;
-        .inpro2{
+        .inpro2 {
             position: relative;
             width: 100%;
+
             // display: flex;
-            .inpro3{
-                width:29%;
+            .inpro3 {
+                width: 29%;
             }
         }
     }
